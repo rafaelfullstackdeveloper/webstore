@@ -12,7 +12,7 @@ const Navbar = () => (
     <div className="nav-links">
       <a href="#">Ofertas</a>
       <a href="#">Mais Vendidos</a>
-      <a href="#">Prime</a>
+      <a href="#">Premium</a>
       <a href="#">Conta</a>
       <a href="#">Carrinho</a>
     </div>

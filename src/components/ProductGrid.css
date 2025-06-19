@@ -1,16 +1,20 @@
 .product-section {
   background: #fff;
-  margin: 20px 0;
+  margin: 20px auto;
   padding: 20px;
   border-radius: 8px;
+  max-width: 900px;
 }
 .product-section h3 {
   margin-bottom: 15px;
+  text-align: center;
 }
 .product-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 .product-card {
   background: #fafafa;
@@ -20,10 +24,14 @@
   padding: 10px;
   text-align: center;
   box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .product-card img {
   width: 100px;
   height: 100px;
   object-fit: contain;
   margin-bottom: 10px;
+  display: block;
 } 

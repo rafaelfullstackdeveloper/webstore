@@ -8,9 +8,9 @@ const HeroBanner = () => (
       {/* Main headline */}
       <h2>Teste grátis por 30 dias</h2>
       {/* Subheadline */}
-      <p>Prime Video, Frete Grátis e muito mais</p>
+      <p>Premium Video, Frete Grátis e muito mais</p>
       {/* Call-to-action button */}
-      <button>Experimente Prime</button>
+      <button>Experimente Premium</button>
     </div>
   </div>
 );
