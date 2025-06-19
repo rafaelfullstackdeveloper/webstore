@@ -1,0 +1,23 @@
+.hero-banner {
+  background: #007185;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+.banner-content h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.banner-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.banner-content button {
+  background: #febd69;
+  color: #232f3e;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+} 

@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background: #232f3e;
+  color: #fff;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+.logo {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.navbar .search {
+  flex: 1;
+  margin: 0 20px;
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+}
+.nav-links a {
+  color: #fff;
+  margin-left: 15px;
+  text-decoration: none;
+  font-size: 1rem;
+} 
