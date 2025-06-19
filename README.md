@@ -48,7 +48,7 @@ The app will be available at `http://localhost:5173` by default.
 
 ## Project Screenshot
 
-![Project Screenshot](smart-tv.PNG)
+![Project Screenshot](\media\screeshot.png)
 
 ## License
 MIT
