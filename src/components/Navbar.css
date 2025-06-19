@@ -1,25 +1,45 @@
 .navbar {
+  /* Layout */
   display: flex;
   align-items: center;
+  justify-content: normal;
+  height: 100px;
+  align-self: start;
+  align-content: center;
+
+  /* Box model */
+  padding: 20px 20px;
+
+  /* Visual */
   background: #232f3e;
   color: #fff;
-  padding: 10px 20px;
-  justify-content: space-between;
 }
+
 .logo {
+  /* Typography */
   font-weight: bold;
   font-size: 1.3rem;
 }
+
 .navbar .search {
+  /* Box model */
   flex: 1;
-  margin: 0 20px;
+  margin: 0 10px;
   padding: 5px;
+
+  /* Visual */
   border-radius: 4px;
   border: none;
 }
+
 .nav-links a {
-  color: #fff;
-  margin-left: 15px;
-  text-decoration: none;
+  /* Box model */
+  margin-left: 10px;
+
+  /* Typography */
   font-size: 1rem;
+
+  /* Visual */
+  color: #fff;
+  text-decoration: none;
 } 
