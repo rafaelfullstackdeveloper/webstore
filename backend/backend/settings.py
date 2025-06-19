@@ -66,7 +66,7 @@ ROOT_URLCONF = 'backend.urls'                                 # Main URL routing
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',  # Template processing engine
-        'DIRS': [],                                           # Custom template directories
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,                                     # Look for templates in app folders
         'OPTIONS': {
             'context_processors': [

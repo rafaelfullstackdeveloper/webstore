@@ -26,4 +26,5 @@ router.register(r'categories', CategoryViewSet)                   # Register /ap
 urlpatterns = [
     path('admin/', admin.site.urls),                             # Django admin interface URL
     path('api/', include(router.urls)),                          # Include API URLs under /api/
+    path('', include('products.urls')),                          # Store main page at root
 ]
