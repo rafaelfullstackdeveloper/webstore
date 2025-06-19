@@ -127,6 +127,10 @@ USE_TZ = True                                                # Enable timezone a
 
 STATIC_URL = 'static/'                                       # URL prefix for static files
 
+STATICFILES_DIRS = [
+    BASE_DIR / 'static' / 'react',
+]
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 

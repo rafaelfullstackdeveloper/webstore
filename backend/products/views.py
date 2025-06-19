@@ -21,3 +21,7 @@ class CategoryViewSet(viewsets.ModelViewSet):
 def store_main_page(request):
     """Render the store main page template."""
     return render(request, 'store_main.html')
+
+def react_app(request):
+    """Serve the React app's index.html template."""
+    return render(request, 'react/index.html')
