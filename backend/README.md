@@ -44,8 +44,22 @@ This backend provides a RESTful API for managing products and categories for the
    - Create a superuser if needed: `python manage.py createsuperuser`
 
 ## Requirements
-- Django
-- djangorestframework
+
+The backend dependencies are listed in `requirements.txt`:
+
+```
+asgiref==3.8.1
+Django==5.2.3
+djangorestframework==3.16.0
+sqlparse==0.5.3
+tzdata==2025.2
+```
+
+To install all dependencies, run:
+
+```
+pip install -r requirements.txt
+```
 
 ## How to Migrate
 ```
