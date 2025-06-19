@@ -46,5 +46,9 @@ The app will be available at `http://localhost:5173` by default.
 - `src/App.jsx` - Main app layout
 - `src/App.css` - Global styles
 
+## Project Screenshot
+
+![Project Screenshot](smart-tv.PNG)
+
 ## License
 MIT
