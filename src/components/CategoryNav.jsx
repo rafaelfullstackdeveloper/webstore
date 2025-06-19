@@ -3,7 +3,7 @@ import './CategoryNav.css';
 
 // List of product categories for navigation
 const categories = [
-  "Dispositivos Amazon", "Livros", "eBooks", "Informática", "Cuidados Pessoais", "Games"
+  "Dispositivos webstore", "Livros", "eBooks", "Informática", "Cuidados Pessoais", "Games"
 ];
 
 // CategoryNav component: displays a horizontal scrollable list of categories

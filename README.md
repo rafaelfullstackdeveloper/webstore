@@ -1,6 +1,6 @@
 # Web Store
 
-A modern e-commerce homepage layout inspired by Amazon, built with React and Vite.
+A modern e-commerce homepage layout inspired by webstore, built with React and Vite.
 
 ## Features
 - Responsive navigation bar
