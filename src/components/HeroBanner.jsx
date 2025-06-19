@@ -8,7 +8,7 @@ const HeroBanner = () => (
       {/* Main headline */}
       <h2 className="display-5 fw-bold mb-2">Compre com segurança e rapidez na Django Store</h2>
       {/* Subheadline */}
-      <p className="lead mb-3">Produtos, ofertas e entrega rápida como no Mercado Livre!</p>
+      <p className="lead mb-3">Produtos, ofertas e entrega rápida como na Django Store!</p>
       {/* Call-to-action button */}
       <button className="btn btn-primary btn-lg">Ver Ofertas</button>
     </div>
