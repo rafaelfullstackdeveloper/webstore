@@ -14,16 +14,16 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from django.contrib import admin
-from django.urls import path, include
-from rest_framework import routers
-from products.views import ProductViewSet, CategoryViewSet
+from django.contrib import admin                                   # Provides Django admin functionality
+from django.urls import path, include                             # Core URL routing utilities
+from rest_framework import routers                                # DRF router for API endpoints
+from products.views import ProductViewSet, CategoryViewSet        # ViewSets for products/categories
 
-router = routers.DefaultRouter()
-router.register(r'products', ProductViewSet)
-router.register(r'categories', CategoryViewSet)
+router = routers.DefaultRouter()                                  # Create default API router
+router.register(r'products', ProductViewSet)                      # Register /api/products/ endpoints
+router.register(r'categories', CategoryViewSet)                   # Register /api/categories/ endpoints
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('api/', include(router.urls)),
+    path('admin/', admin.site.urls),                             # Django admin interface URL
+    path('api/', include(router.urls)),                          # Include API URLs under /api/
 ]

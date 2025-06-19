@@ -1,6 +1,5 @@
-from django.apps import AppConfig
+from django.apps import AppConfig                                 # Import Django's app configuration class
 
 
 class ProductsConfig(AppConfig):
-    default_auto_field = 'django.db.models.BigAutoField'
-    name = 'products'
+    name = 'products'                                            # Internal reference name for this app
