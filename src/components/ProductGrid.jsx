@@ -11,16 +11,20 @@ const products = [
 
 // ProductGrid component: displays a section with a title and a grid of product cards
 const ProductGrid = ({ title }) => (
-  <section className="product-section">
+  <section className="mb-4">
     {/* Section title */}
-    <h3>{title}</h3>
+    <h3 className="mb-3 fw-bold">{title}</h3>
     {/* Product cards grid */}
-    <div className="product-grid">
+    <div className="row g-3">
       {products.map((p, i) => (
-        <div className="product-card" key={i}>
-          <img src={p.img} alt={p.title} />
-          <div>{p.title}</div>
-          <div>{p.price}</div>
+        <div className="col-12 col-sm-6 col-md-3" key={i}>
+          <div className="card h-100 shadow-sm">
+            <img src={p.img} alt={p.title} className="card-img-top p-3" style={{height: 180, objectFit: 'contain'}} />
+            <div className="card-body text-center">
+              <div className="card-title fw-bold">{p.title}</div>
+              <div className="card-text text-success fs-5">{p.price}</div>
+            </div>
+          </div>
         </div>
       ))}
     </div>
